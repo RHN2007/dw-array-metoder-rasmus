@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Opgave 1
     let newNumbers = numbersArray.filter((number) => {return number > 20}) // filter igennem arrayet og brug en fat arrow function til at returnere alle numre over 20
-    console.log(newNumbers)
+    console.log("Opgave 1", newNumbers)
 
 
 }) // ends DOMContentLoaded
