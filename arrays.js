@@ -10,5 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let newNumbers = numbersArray.filter((number) => {return number > 20}) // filter igennem arrayet og brug en fat arrow function til at returnere alle numre over 20
     console.log("Opgave 1", newNumbers)
 
+    // Opgave 2
+    catsArray.push("Sniffles") // "push" katten sniffles til vores catsArray, i andre ord tilføj en ny entry i arrayen.
+    console.log("Opgave 2", catsArray)
 
 }) // ends DOMContentLoaded
