@@ -14,4 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
     catsArray.push("Sniffles") // "push" katten sniffles til vores catsArray, i andre ord tilføj en ny entry i arrayen.
     console.log("Opgave 2", catsArray)
 
+    // Opgave 3
+    console.log("Opgave 3a", dogsArray.includes("Trixie")) // tjek arrayet og se om det inkludere "Trixie", hvis den gør så logger den true, hvis ik så logger den false.
+    console.log("Opgave 3b", dogsArray.includes("Baxter"))
+
 }) // ends DOMContentLoaded
