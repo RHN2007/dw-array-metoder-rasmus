@@ -26,4 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Opgave 5
     console.log("Opgave 5", numbersArray.map((x) => x * 3))
+
+    // Opgave 6
+    console.log("Opgave 6", dogsArray.join(""))
 }) // ends DOMContentLoaded
