@@ -25,5 +25,5 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Opgave 4b", catsArray.find((cat) => cat == "Salem")) // Konsolen skriver automatisk undefined hvis katten ikke bliver fundet.
 
     // Opgave 5
-    console.log(numbersArray.map((x) => x * 3))
+    console.log("Opgave 5", numbersArray.map((x) => x * 3))
 }) // ends DOMContentLoaded
