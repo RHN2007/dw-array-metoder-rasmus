@@ -32,4 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Opgave 7a
     console.log("Opgave 7a", fruitsArray.indexOf("Mango"))
+
+    // Opgave 7b
+    console.log("Opgave 7b", fruitsArray.indexOf("Blåbær"))
 }) // ends DOMContentLoaded
