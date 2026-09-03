@@ -29,4 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Opgave 6
     console.log("Opgave 6", dogsArray.join(""))
+
+    // Opgave 7a
+    console.log("Opgave 7a", fruitsArray.indexOf("Mango"))
 }) // ends DOMContentLoaded
