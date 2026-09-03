@@ -18,4 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Opgave 3a", dogsArray.includes("Trixie")) // tjek arrayet og se om det inkludere "Trixie", hvis den gør så logger den true, hvis ik så logger den false.
     console.log("Opgave 3b", dogsArray.includes("Baxter"))
 
+    // Opgave 4a
+    console.log("Opgave 4a", catsArray.find((cat) => cat == "Bagheera")) // Konsolen skriver automatisk undefined hvis katten ikke bliver fundet.
+
 }) // ends DOMContentLoaded
