@@ -21,4 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Opgave 4a
     console.log("Opgave 4a", catsArray.find((cat) => cat == "Bagheera")) // Konsolen skriver automatisk undefined hvis katten ikke bliver fundet.
 
+    // Opgave 4b
+    console.log("Opgave 4b", catsArray.find((cat) => cat == "Salem")) // Konsolen skriver automatisk undefined hvis katten ikke bliver fundet.
+
 }) // ends DOMContentLoaded
