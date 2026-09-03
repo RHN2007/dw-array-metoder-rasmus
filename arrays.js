@@ -35,4 +35,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Opgave 7b
     console.log("Opgave 7b", fruitsArray.indexOf("Blåbær"))
+
+    // Opgave 8
+    let attendingDogs = dogsArray.splice(3, 1)
+    console.log("Opgave 8", dogsArray)
 }) // ends DOMContentLoaded
